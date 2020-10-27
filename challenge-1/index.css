@@ -1,0 +1,28 @@
+body {
+  background-color: grey;
+}
+
+p {
+  text-align: center;
+}
+
+.container {
+  margin: 200px;
+  align-content: center;
+  width: 800px;
+  height: 800px;
+  display: grid;
+  border: 10px solid pink;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.black {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+.white {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
